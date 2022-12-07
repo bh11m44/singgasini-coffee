@@ -17,9 +17,10 @@ class CreateTransactionDetailsTable extends Migration
             $table->id();
             $table->integer('transactions_id');
             $table->integer('products_id');
-            $table->double('harga');
+            $table->integer('harga');
             $table->integer('kuantitas');
-            // $table->integer('code');
+            $table->integer('status');
+            $table->integer('code');
             $table->softDeletes();
             $table->timestamps();
         });

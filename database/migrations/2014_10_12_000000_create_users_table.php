@@ -21,8 +21,6 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->longText('alamat')->nullable();
             $table->integer('no_telp')->nullable();
-            $table->string('nama_toko')->nullable();
-            $table->integer('status_toko')->nullable();
             $table->string('jenis_pengguna');
             $table->string('foto')->nullable();
             $table->softDeletes();

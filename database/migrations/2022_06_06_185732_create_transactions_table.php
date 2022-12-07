@@ -17,8 +17,7 @@ class CreateTransactionsTable extends Migration
             $table->id();
             $table->integer('users_id');
             $table->double('total_harga');
-            $table->longText('alamat');
-            // $table->longText('code');
+            $table->longText('code');
             $table->softDeletes();
             $table->timestamps();
         });
