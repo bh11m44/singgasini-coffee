@@ -1,0 +1,50 @@
+.component-categories {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 30px 30px 10px 30px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+    max-height: 197px;
+
+    &:hover {
+        transform: scale(1.2);
+        text-decoration: none;
+    }
+
+    .categories-text {
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        font-weight: normal;
+        margin-top: 12px;
+    }
+}
+
+form {
+    margin-bottom: 20px;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+    margin-left: 400px;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color:black;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+@media screen and (max-width: 780px) {
+    .search {
+        margin-left: 0%;
+    }
+}
